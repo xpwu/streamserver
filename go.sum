@@ -26,8 +26,8 @@ github.com/xpwu/go-pipe v0.0.0-20220115063006-dac336d40ac5/go.mod h1:apP02ck3B5e
 github.com/xpwu/go-reqid v0.0.0-20220121092940-0d390bc2f5a5/go.mod h1:VG6DraZK8fsAMskvr95aCYppalDEcKO4NnyNz6W8vO4=
 github.com/xpwu/go-reqid v0.0.0-20220121111345-9dac6c8cd03c h1:QFtpXTpTS8HHSPyV17g2+RPwifQSjxJKW628o0i77LU=
 github.com/xpwu/go-reqid v0.0.0-20220121111345-9dac6c8cd03c/go.mod h1:VG6DraZK8fsAMskvr95aCYppalDEcKO4NnyNz6W8vO4=
-github.com/xpwu/go-stream v0.0.0-20221125143529-f907cd258b8f h1:N8WYOts1nfYBx2lT4eazzu5VkiOj5DaAneOSsTESs7A=
-github.com/xpwu/go-stream v0.0.0-20221125143529-f907cd258b8f/go.mod h1:eFybGdOd76GZuoJwxKEhaE/l4ecEVswPDOm7x/Z6eKM=
+github.com/xpwu/go-stream v0.0.0-20221127125604-c46a4f0e5b8c h1:e7ua1R6waOn01v9U0zy6yg2FOLlwPkZ4bhbP8zg4wUI=
+github.com/xpwu/go-stream v0.0.0-20221127125604-c46a4f0e5b8c/go.mod h1:wAQAjNfYo+sDh7tVWWjGSw9OfagW4IPWr7cNY+QsuUU=
 github.com/xpwu/go-var v0.0.0-20220113152205-b5706ac3a7dd h1:VfU1P87JWOA8F0wrFo5YhdcceJsviefx/wSGMU/JSaY=
 github.com/xpwu/go-var v0.0.0-20220113152205-b5706ac3a7dd/go.mod h1:RZtbOEjZTiu/pho9MAogh9Dd+41XpHb73KuDFpNlqxw=
 github.com/xpwu/go-x v0.0.0-20220120021151-4ac8ee529bca/go.mod h1:fbWlT5O1aPLdzOhKnkPFao9E3q5LjQY3GXFnzML6Xz4=
@@ -36,6 +36,8 @@ github.com/xpwu/go-x v0.0.0-20221121161745-f29dbe5207e1/go.mod h1:fbWlT5O1aPLdzO
 github.com/xpwu/go-xnet v0.0.0-20220120153650-2b224b1315d3/go.mod h1:uyI3T+FpSSBKPHn9TIhqCRVYm8jb6WYe+qo9DuQQ7jE=
 github.com/xpwu/go-xnet v0.0.0-20221125143209-aa60a74507ec h1:bthgTlFWTB4fB2bn0ezTv8s7qgRiM5REnPket+JeVao=
 github.com/xpwu/go-xnet v0.0.0-20221125143209-aa60a74507ec/go.mod h1:uyI3T+FpSSBKPHn9TIhqCRVYm8jb6WYe+qo9DuQQ7jE=
+github.com/xpwu/go-xnet v0.0.0-20221127125254-28191a96f28d h1:Z4uq736UlMjtOPILZJ8G2jbrlZ/kvMetgqLK27KTlk8=
+github.com/xpwu/go-xnet v0.0.0-20221127125254-28191a96f28d/go.mod h1:uyI3T+FpSSBKPHn9TIhqCRVYm8jb6WYe+qo9DuQQ7jE=
 golang.org/x/sync v0.0.0-20210220032951-036812b2e83c h1:5KslGYwFpkhGh+Q16bwMP3cOontH8FOep7tGV86Y7SQ=
 golang.org/x/sync v0.0.0-20210220032951-036812b2e83c/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
