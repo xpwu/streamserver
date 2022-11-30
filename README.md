@@ -3,4 +3,4 @@
 支持两种应用服务器的推送协议：1、http协议的推送；2、push协议的推送
 
 
-## http 协议 [demo](https://github.com/xpwu/streamserver/test/push.http) 
+## http 协议 [demo](https://github.com/xpwu/streamserver/blob/master/test/push.http) 
