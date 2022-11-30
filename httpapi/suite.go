@@ -5,7 +5,7 @@ import (
 )
 
 type request struct {
-  PushToken string `json:"tk"`
+  PushToken string `json:"pushtoken"`
 }
 
 type response struct {
