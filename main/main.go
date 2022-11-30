@@ -7,6 +7,8 @@ import (
   "github.com/xpwu/go-stream/lencontent"
   "github.com/xpwu/go-stream/push"
   "github.com/xpwu/go-stream/websocket"
+  "github.com/xpwu/go-tinyserver/http"
+  "github.com/xpwu/streamserver/httpapi"
 )
 
 func main() {
@@ -19,6 +21,9 @@ func main() {
     websocket.Start()
     lencontent.Start()
     push.Start()
+
+    httpapi.AddAPI()
+    http.Start()
 
     // block
     block := make(chan struct{})
