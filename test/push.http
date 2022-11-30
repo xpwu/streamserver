@@ -1,0 +1,18 @@
+
+
+POST 127.0.0.1:7001/push
+Content-Type: application/json
+
+{
+  "tk": "9cdda2705227c43_63877ee400000004",
+  "data": "{this is from http push}"
+}
+
+#####
+
+POST 127.0.0.1:7001/close
+Content-Type: application/json
+
+{
+  "tk": "9cdda2705227c43_63877ee400000004"
+}
