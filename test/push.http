@@ -16,3 +16,37 @@ Content-Type: application/json
 {
   "pushtoken": "e5566bf998b675e_638780b700000001"
 }
+
+####
+
+POST 127.0.0.1:7001/batchpushv1
+Content-Type: application/json
+
+{
+  "pushtokens": ["e5566bf998b675e_638780b700000001"],
+  "data": "{this is from http batch push v1}"
+}
+
+####
+
+POST 127.0.0.1:7001/batchpushv2
+Content-Type: application/json
+
+{
+  "reqs": [{
+    "pushtoken": "e5566bf998b675e_638780b700000001",
+    "data": "{this is from http batch push v2}"
+  }, {
+    "pushtoken": "e5566bf998b675e_638780b700000001",
+    "data": "{this is from http batch push v2}"
+  }]
+}
+
+#####
+
+POST 127.0.0.1:7001/batchclose
+Content-Type: application/json
+
+{
+  "pushtokens": ["e5566bf998b675e_638780b700000001"]
+}

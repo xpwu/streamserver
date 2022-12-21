@@ -12,6 +12,10 @@ type response struct {
   State int `json:"st"`
 }
 
+type batchResponse struct {
+  States []int `json:"sts"`
+}
+
 type suite struct {
   api.PostJsonSetUpper
   api.PostJsonTearDowner
