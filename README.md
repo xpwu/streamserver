@@ -2,8 +2,11 @@
 基于[go-stream](https://github.com/xpwu/go-stream) 的完整服务，
 支持两种应用服务器的推送协议：1、http协议的推送；2、push协议的推送
 
+## 运行 
+xxx  -h 参数可以看到帮助信息    
+按照帮助提示运行即可
 
-## http 协议 [demo](https://github.com/xpwu/streamserver/blob/master/test/push.http)    
+## http push 协议 [demo](https://github.com/xpwu/streamserver/blob/master/test/push.http)    
 ```
 response:   
 {
@@ -18,3 +21,6 @@ st的取值：
   3: ServerInternalErr
   4: AckTimeout  
 ```
+
+## client test
+go-stream client 测试的 api 接口
